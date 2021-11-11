@@ -1,5 +1,6 @@
-# Projects on TOP
+# The Odin Recipes project
+## Learnings
 
-## This is a repo with all the Odin Projects in it. Hopefully commits will keep on coming 🙏.
-
-Once upon a long time ago, I decided to do the Odin Project. This is how it is going folks, it's all out there for everyone to see 😊. 
+- Become habitual with HTML Boilerplates.
+- Get accustomed to directories and internal links.
+- Cherish coding. 😉
