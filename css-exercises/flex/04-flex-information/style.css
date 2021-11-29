@@ -14,12 +14,12 @@ img {
   justify-content: center;
 }
 
-.items {
+.container {
   display: flex;
   justify-content: center;
 }
 
-.item {
+.info {
   vertical-align: top;
   text-align: center;
   width: 200px;
