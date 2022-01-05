@@ -7,26 +7,19 @@
     </head>
     <body>
         <script>
-            function add77(num) {
-                return(num+7);
-            };
-            function multiply(a,b) {
-                return(a*b);
-            };
-            function capitalize(string) {
-                let str1 = string.charAt(0);
-                let str2 = str1.toUpperCase();
-                let str3 = string.replace(str1, str2);
-                return str3;
-            };
-            function lastLetter(string){
-                let last = string.slice(-1);
-                return last;
-            };
-            console.log(add77(7));
-            console.log(multiply(2,3));
-            console.log(capitalize("wHaT are you talking about?"));
-            console.log(lastLetter("How are you fellow kids?"));
+            const removeFromArray = function(array, ...object) {
+                let i = 0;
+                let j = 0;
+                while (i<array.length){
+                    for (j;j<object.length;j++){
+                        if (array[i]===object[j]){
+                            array.splice(i,1);
+                        }
+                    }
+                    i++;
+                } 
+                return array;
+            }
         </script>
     </body>
 </html>
