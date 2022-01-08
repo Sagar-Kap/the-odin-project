@@ -1,3 +1,17 @@
 body {
     background:rgb(155, 165, 173);
 }
+
+.para {
+    color: red;
+}
+
+.heading {
+    color: blue;
+}
+
+.divForH1 {
+    border-color: black;
+    border-width: 1em;
+    background-color: pink;
+}
