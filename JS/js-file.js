@@ -30,3 +30,10 @@ para2.textContent = "ME TOO!"
 divForH1.appendChild(para2);
 
 container.appendChild(divForH1);
+
+const buttons = document.querySelectorAll("button");
+buttons.forEach((b) =>{
+    b.addEventListener("click", ()=>{
+        alert(b.id);
+    });
+});

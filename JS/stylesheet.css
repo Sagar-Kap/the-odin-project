@@ -15,3 +15,16 @@ body {
     border-width: 1em;
     background-color: pink;
 }
+
+button {
+    border-radius: 5px;
+    border-width: 1em;
+    background-color: purple;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: thistle;
+    color: black;
+}
